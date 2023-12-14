@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <title>Bootstrap and the Grids: Grid 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- Link Local CSS -->
+    <link href="/CSS/site.css" rel="stylesheet">
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Bootstrap Grids</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="/Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Grid1.html">Grid 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid2.html">Grid 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid3.html">Grid 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid4.html">Grid 4</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid5.html">Grid 5</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid6.html">Grid 6</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid7.html">Grid 7</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid8.html">Grid 8</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Grid9.html">Grid 9</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <main class="flex-shrink-0">
+       <div class="container">
+            <!-- g-1 = Gutter set to a small between space and side spaces of 1 unit -->
+            <!-- (mobile) row-cols-1 = set all columns to be in one row (must put a breakpoint) -->
+            <!-- (desktop) row-cols-1-md-2 = set a break point of a medium display to be 2 columbs -->
+           <div class="row row-cols-1 row-cols-1-md-2 gy-2 h-100 minHeight">
+                <div class="col">
+                    <!-- h-100 = minimum height of 100 units -->
+
+                    <!-- padding is from 1 to 5 -->
+                    <!-- p-3 = padding on the top, bottom, start and end -->
+                    <!-- pt-3 = padding on the top -->
+                    <!-- pb-3 = padding on the bottom -->
+                    <div class="bg-dark text-light p-2 h-100">
+                        <h1>Column 1</h1>
+                        <p>Lorem ipsum dolor sit amet. Sit consequuntur iste et aperiam quasEt dolore. Qui quos architectoId ipsam eum consequatur omnis non sunt totam qui magnam repellendus et nemo iure? Non aperiam voluptatum <em>Id rerum sit corrupti voluptatem a unde reiciendis</em> ut reprehenderit soluta qui quam dolor. </p><p>Id eveniet libero et consequatur sint <strong>Et autem a temporibus consequatur</strong>. Et delectus quos <em>Ut consequatur et possimus voluptates et odit internos in magnam nulla</em>. Aut omnis quasRem esse qui blanditiis adipisci cum consequatur minima ut deserunt dolorum. Est expedita quae eum galisum temporibusIn possimus sit eveniet tenetur ea earum debitis. </p><p>33 omnis explicabo et eveniet eligendi <em>Vel enim</em>. Eum consequatur maiores aut doloribus consequunturEa tempora et veritatis nostrum eos quos architecto ea aliquid consequuntur. Aut maxime facere <strong>Eum adipisci sit minus aliquid et explicabo provident</strong> eum dolorum necessitatibus et consequuntur consequuntur. Ut dolorum voluptasEst quia rem quia veniam vel modi eligendi est tempora recusandae! </p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="bg-secondary text-light p-2 h-100">
+                        <h1>Column 2</h1>
+                        <p>Lorem ipsum dolor sit amet. Est illo vero <em>Nam error id amet vero in aliquam velit</em> vel aperiam voluptatum! Qui iure eaque non explicabo delenitiAt omnis eum amet distinctio. </p><p>Et voluptatem iure in deserunt suntest ullam aut consequatur numquam cum natus veritatis. Ut enim dolore <strong>Non molestias ea placeat quos aut quisquam voluptas eum internos magnam</strong> nam animi autem eum officiis velit. Ab quibusdam nobisRem sunt vel quia quibusdam. </p><p>Id sunt ratione in quia aspernatur <strong>Et sequi</strong>. Et voluptates commodi et voluptate dignissimos <em>Aut velit est aspernatur unde 33 fugiat rerum non excepturi aspernatur</em> sed beatae velit. Eos dolorum illum eum inventore quibusdamut distinctio ut amet exercitationem. Ut sequi blanditiis aut recusandae explicaboEt autem et enim rerum ut totam quia qui velit iusto aut corporis fugiat. </p>
+                    </div>
+                </div>
+           </div>
+       </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-dark sticky-footer">
+        <div class="container-fluid text-center">
+            <span class="text-white">Bootstrap and the Grids! By JTK</span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
