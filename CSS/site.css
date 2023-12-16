@@ -1,7 +1,13 @@
 main>.container {
-    padding: 60px 15px 0;
-    margin-bottom: 5rem;
+    padding: 25px 15px 0;
+    margin-top: 5rem;
 }
+
+main>.container-fluid {
+    padding: 25px 15px 0;
+    margin-top: 5rem;
+}
+
 .sticky-footer {
     position: sticky;
     left: 0;
